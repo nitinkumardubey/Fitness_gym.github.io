@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --navbar-height:59px;
+}
+body{
+    background: url('../bg.jpg');
+}
+#logo{
+  margin: 0px 0px;
+}
+#logo img{
+    height: 34px;
+    width: 60px;
+    margin-left: 18px;
+    margin-top: 12px;
+    filter: invert(100%);
+}
+#logo div{
+    font-size: 1rem;
+    filter: invert(100%);
+    margin-left: 12px;
+    margin-top: 1px;
+}
+#navb{
+    display: inline-block;
+}
+#navb ul{
+    left: 380px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    list-style-type: none;
+}
+#navb ul li{
+    font-size: 1.2rem;
+    padding: 18px 7px;
+    text-align: center;
+}
+#navb ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navb ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.right{
+    position: absolute;
+    right: 25px;
+    top: 18px;
+    display:inline-block;
+}
+.btn{
+    padding: 4px 14px;
+    margin: 0px 6px;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.formg{
+    border: 2px solid white;
+    margin-left: 71px;
+    padding: 50px 60px;
+    width: 20%;
+    display: block;
+    border-radius: 30px;
+    margin-top: 100px;
+    height: 322px;
+    align-items: center;
+}
+.formg input{
+    font-size: 1rem;
+    width: 259px;
+    padding: 6px;
+    border: 2px solid black;
+    display: block;
+    margin: 21px auto;
+    text-align: center;
+}
+.formg h1{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
